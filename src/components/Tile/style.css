@@ -5,4 +5,13 @@ img {
         6px 6px 10px 15px #777;
     margin-top: 20px;
     margin-bottom: 60px;
+
+    height: 150px;
+    width: 150px;
+}
+
+img:active {
+    box-shadow: none;
+    /* width: 70px; */
+    /* height: 74px; */
 }

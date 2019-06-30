@@ -2,15 +2,20 @@ import React from 'react';
 import { Col } from '../Grid';
 import "./style.css";
 
-export function Tile({ url }) {
+
+
+export function Tile(props) {
     return (
         <Col size="md-3">
-            <img  src="https://via.placeholder.com/150" alt="pic"/>
+            <img  
+                src={props.url}
+                alt={props.id}
+                onClick={props.onClick}
+            />
+
         </Col>
     );
 }
-
-
 
 
 export default Tile;
